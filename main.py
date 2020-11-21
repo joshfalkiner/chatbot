@@ -15,6 +15,7 @@ import string
 import os as os
 nltk.download('punkt')
 
+
 with open(os.path.join(os.getcwd(), 'intents.json')) as json_file:
     skills_df = pd.read_json(json_file)
     skills_df = pd.DataFrame(skills_df.intents.values.tolist())
