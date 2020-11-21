@@ -5,7 +5,7 @@ stemmer = SnowballStemmer("english")
 from nltk.tokenize import TweetTokenizer
 tt = TweetTokenizer()
 import numpy as np
-import tensorflow as tf # v2.2
+import tensorflow as tf # v2.2 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 import random
